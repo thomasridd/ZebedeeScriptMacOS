@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D891B12027B7C181D109889 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C3FA5C7AC61EC94DF4A465 /* Pods.framework */; };
+		8E0F59181C6125E1002B8BB8 /* Specifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0F59171C6125E1002B8BB8 /* Specifications.swift */; };
+		8E45E6A11C5F5CEC00136DA6 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45E6A01C5F5CEC00136DA6 /* Command.swift */; };
+		8E45E6A31C60B36300136DA6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45E6A21C60B36300136DA6 /* Result.swift */; };
+		8E45E6A51C60B64300136DA6 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45E6A41C60B64300136DA6 /* Api.swift */; };
+		8E6F6A351C63558800D79D5C /* QueryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F6A341C63558800D79D5C /* QueryPageViewController.swift */; };
+		8E6F6A371C64B7BF00D79D5C /* DatabaseTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F6A361C64B7BF00D79D5C /* DatabaseTransferViewController.swift */; };
+		8E6F6A391C64E37900D79D5C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F6A381C64E37900D79D5C /* Menu.swift */; };
+		8E6F6A3F1C662B3600D79D5C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F6A3E1C662B3600D79D5C /* Settings.swift */; };
+		8E6F6A411C6639B400D79D5C /* Settings.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F6A401C6639B400D79D5C /* Settings.json */; };
+		8E94DADD1C5C1E3E00308871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E94DADC1C5C1E3E00308871 /* AppDelegate.swift */; };
+		8E94DADF1C5C1E3E00308871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E94DADE1C5C1E3E00308871 /* ViewController.swift */; };
+		8E94DAE11C5C1E3E00308871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E94DAE01C5C1E3E00308871 /* Assets.xcassets */; };
+		8E94DAE41C5C1E3E00308871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E94DAE21C5C1E3E00308871 /* Main.storyboard */; };
+		8E94DAEF1C5C1E3E00308871 /* ZebedeeScriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E94DAEE1C5C1E3E00308871 /* ZebedeeScriptTests.swift */; };
+		8E94DAFA1C5C1E3E00308871 /* ZebedeeScriptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E94DAF91C5C1E3E00308871 /* ZebedeeScriptUITests.swift */; };
+		8E94DB081C5E3BA300308871 /* FileQueryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E94DB071C5E3BA300308871 /* FileQueryController.swift */; };
+		8EC6C8221C678D24007E583C /* ScriptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6C8211C678D24007E583C /* ScriptsViewController.swift */; };
+		8EC6C8241C679467007E583C /* Scripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6C8231C679467007E583C /* Scripts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E94DAEB1C5C1E3E00308871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E94DAD11C5C1E3E00308871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E94DAD81C5C1E3E00308871;
+			remoteInfo = ZebedeeScript;
+		};
+		8E94DAF61C5C1E3E00308871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E94DAD11C5C1E3E00308871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E94DAD81C5C1E3E00308871;
+			remoteInfo = ZebedeeScript;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12C3FA5C7AC61EC94DF4A465 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E24E3E594657FDDB2942A0B /* Pods-ZebedeeScript.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebedeeScript.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZebedeeScript/Pods-ZebedeeScript.release.xcconfig"; sourceTree = "<group>"; };
+		8E0F59171C6125E1002B8BB8 /* Specifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specifications.swift; sourceTree = "<group>"; };
+		8E45E6A01C5F5CEC00136DA6 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		8E45E6A21C60B36300136DA6 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		8E45E6A41C60B64300136DA6 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		8E6F6A341C63558800D79D5C /* QueryPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryPageViewController.swift; sourceTree = "<group>"; };
+		8E6F6A361C64B7BF00D79D5C /* DatabaseTransferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseTransferViewController.swift; sourceTree = "<group>"; };
+		8E6F6A381C64E37900D79D5C /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../Menu.swift; sourceTree = "<group>"; };
+		8E6F6A3E1C662B3600D79D5C /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		8E6F6A401C6639B400D79D5C /* Settings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Settings.json; sourceTree = "<group>"; };
+		8E94DAD91C5C1E3E00308871 /* ZebedeeScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZebedeeScript.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E94DADC1C5C1E3E00308871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E94DADE1C5C1E3E00308871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E94DAE01C5C1E3E00308871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E94DAE31C5C1E3E00308871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E94DAE51C5C1E3E00308871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E94DAEA1C5C1E3E00308871 /* ZebedeeScriptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZebedeeScriptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E94DAEE1C5C1E3E00308871 /* ZebedeeScriptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZebedeeScriptTests.swift; sourceTree = "<group>"; };
+		8E94DAF01C5C1E3E00308871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E94DAF51C5C1E3E00308871 /* ZebedeeScriptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZebedeeScriptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E94DAF91C5C1E3E00308871 /* ZebedeeScriptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZebedeeScriptUITests.swift; sourceTree = "<group>"; };
+		8E94DAFB1C5C1E3E00308871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E94DB071C5E3BA300308871 /* FileQueryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileQueryController.swift; sourceTree = "<group>"; };
+		8EC6C8211C678D24007E583C /* ScriptsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptsViewController.swift; sourceTree = "<group>"; };
+		8EC6C8231C679467007E583C /* Scripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scripts.swift; sourceTree = "<group>"; };
+		B6F223741C03FFCCD30270D5 /* Pods-ZebedeeScript.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebedeeScript.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZebedeeScript/Pods-ZebedeeScript.debug.xcconfig"; sourceTree = "<group>"; };
+		CA9A285ECD1060D076CCE662 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E9F32D264D2433BA716A4D5A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E94DAD61C5C1E3E00308871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D891B12027B7C181D109889 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E94DAE71C5C1E3E00308871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E94DAF21C5C1E3E00308871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3223910C9B962286012AC57D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6F223741C03FFCCD30270D5 /* Pods-ZebedeeScript.debug.xcconfig */,
+				1E24E3E594657FDDB2942A0B /* Pods-ZebedeeScript.release.xcconfig */,
+				CA9A285ECD1060D076CCE662 /* Pods.debug.xcconfig */,
+				E9F32D264D2433BA716A4D5A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E6F6A421C6653F200D79D5C /* Terminal */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F6A381C64E37900D79D5C /* Menu.swift */,
+				8E6F6A361C64B7BF00D79D5C /* DatabaseTransferViewController.swift */,
+				8E6F6A3E1C662B3600D79D5C /* Settings.swift */,
+				8E6F6A401C6639B400D79D5C /* Settings.json */,
+			);
+			name = Terminal;
+			sourceTree = "<group>";
+		};
+		8E94DAD01C5C1E3E00308871 = {
+			isa = PBXGroup;
+			children = (
+				8E94DADB1C5C1E3E00308871 /* ZebedeeScript */,
+				8E94DAED1C5C1E3E00308871 /* ZebedeeScriptTests */,
+				8E94DAF81C5C1E3E00308871 /* ZebedeeScriptUITests */,
+				8E94DADA1C5C1E3E00308871 /* Products */,
+				3223910C9B962286012AC57D /* Pods */,
+				D262CC4FCEAF3EE142E2196B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E94DADA1C5C1E3E00308871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E94DAD91C5C1E3E00308871 /* ZebedeeScript.app */,
+				8E94DAEA1C5C1E3E00308871 /* ZebedeeScriptTests.xctest */,
+				8E94DAF51C5C1E3E00308871 /* ZebedeeScriptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E94DADB1C5C1E3E00308871 /* ZebedeeScript */ = {
+			isa = PBXGroup;
+			children = (
+				8E94DADC1C5C1E3E00308871 /* AppDelegate.swift */,
+				8E94DADE1C5C1E3E00308871 /* ViewController.swift */,
+				8E6F6A421C6653F200D79D5C /* Terminal */,
+				8E94DAE01C5C1E3E00308871 /* Assets.xcassets */,
+				8E94DAE21C5C1E3E00308871 /* Main.storyboard */,
+				8EC6C8231C679467007E583C /* Scripts.swift */,
+				8EC6C8211C678D24007E583C /* ScriptsViewController.swift */,
+				8E6F6A341C63558800D79D5C /* QueryPageViewController.swift */,
+				8E94DB071C5E3BA300308871 /* FileQueryController.swift */,
+				8E45E6A01C5F5CEC00136DA6 /* Command.swift */,
+				8E0F59171C6125E1002B8BB8 /* Specifications.swift */,
+				8E45E6A21C60B36300136DA6 /* Result.swift */,
+				8E45E6A41C60B64300136DA6 /* Api.swift */,
+				8E94DAE51C5C1E3E00308871 /* Info.plist */,
+			);
+			path = ZebedeeScript;
+			sourceTree = "<group>";
+		};
+		8E94DAED1C5C1E3E00308871 /* ZebedeeScriptTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E94DAEE1C5C1E3E00308871 /* ZebedeeScriptTests.swift */,
+				8E94DAF01C5C1E3E00308871 /* Info.plist */,
+			);
+			path = ZebedeeScriptTests;
+			sourceTree = "<group>";
+		};
+		8E94DAF81C5C1E3E00308871 /* ZebedeeScriptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E94DAF91C5C1E3E00308871 /* ZebedeeScriptUITests.swift */,
+				8E94DAFB1C5C1E3E00308871 /* Info.plist */,
+			);
+			path = ZebedeeScriptUITests;
+			sourceTree = "<group>";
+		};
+		D262CC4FCEAF3EE142E2196B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12C3FA5C7AC61EC94DF4A465 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E94DAD81C5C1E3E00308871 /* ZebedeeScript */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E94DAFE1C5C1E3E00308871 /* Build configuration list for PBXNativeTarget "ZebedeeScript" */;
+			buildPhases = (
+				2E10F01AA30B27DA3CEAF4E3 /* Check Pods Manifest.lock */,
+				8E94DAD51C5C1E3E00308871 /* Sources */,
+				8E94DAD61C5C1E3E00308871 /* Frameworks */,
+				8E94DAD71C5C1E3E00308871 /* Resources */,
+				543D7571B19A264C5F3C3556 /* Embed Pods Frameworks */,
+				951D92205329F1367982346E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZebedeeScript;
+			productName = ZebedeeScript;
+			productReference = 8E94DAD91C5C1E3E00308871 /* ZebedeeScript.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E94DAE91C5C1E3E00308871 /* ZebedeeScriptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E94DB011C5C1E3E00308871 /* Build configuration list for PBXNativeTarget "ZebedeeScriptTests" */;
+			buildPhases = (
+				8E94DAE61C5C1E3E00308871 /* Sources */,
+				8E94DAE71C5C1E3E00308871 /* Frameworks */,
+				8E94DAE81C5C1E3E00308871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E94DAEC1C5C1E3E00308871 /* PBXTargetDependency */,
+			);
+			name = ZebedeeScriptTests;
+			productName = ZebedeeScriptTests;
+			productReference = 8E94DAEA1C5C1E3E00308871 /* ZebedeeScriptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E94DAF41C5C1E3E00308871 /* ZebedeeScriptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E94DB041C5C1E3E00308871 /* Build configuration list for PBXNativeTarget "ZebedeeScriptUITests" */;
+			buildPhases = (
+				8E94DAF11C5C1E3E00308871 /* Sources */,
+				8E94DAF21C5C1E3E00308871 /* Frameworks */,
+				8E94DAF31C5C1E3E00308871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E94DAF71C5C1E3E00308871 /* PBXTargetDependency */,
+			);
+			name = ZebedeeScriptUITests;
+			productName = ZebedeeScriptUITests;
+			productReference = 8E94DAF51C5C1E3E00308871 /* ZebedeeScriptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E94DAD11C5C1E3E00308871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Thomas Ridd";
+				TargetAttributes = {
+					8E94DAD81C5C1E3E00308871 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8E94DAE91C5C1E3E00308871 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8E94DAD81C5C1E3E00308871;
+					};
+					8E94DAF41C5C1E3E00308871 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8E94DAD81C5C1E3E00308871;
+					};
+				};
+			};
+			buildConfigurationList = 8E94DAD41C5C1E3E00308871 /* Build configuration list for PBXProject "ZebedeeScript" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E94DAD01C5C1E3E00308871;
+			productRefGroup = 8E94DADA1C5C1E3E00308871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E94DAD81C5C1E3E00308871 /* ZebedeeScript */,
+				8E94DAE91C5C1E3E00308871 /* ZebedeeScriptTests */,
+				8E94DAF41C5C1E3E00308871 /* ZebedeeScriptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E94DAD71C5C1E3E00308871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E94DAE11C5C1E3E00308871 /* Assets.xcassets in Resources */,
+				8E6F6A411C6639B400D79D5C /* Settings.json in Resources */,
+				8E94DAE41C5C1E3E00308871 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E94DAE81C5C1E3E00308871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E94DAF31C5C1E3E00308871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E10F01AA30B27DA3CEAF4E3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		543D7571B19A264C5F3C3556 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		951D92205329F1367982346E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E94DAD51C5C1E3E00308871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6F6A351C63558800D79D5C /* QueryPageViewController.swift in Sources */,
+				8EC6C8221C678D24007E583C /* ScriptsViewController.swift in Sources */,
+				8E45E6A31C60B36300136DA6 /* Result.swift in Sources */,
+				8E94DADF1C5C1E3E00308871 /* ViewController.swift in Sources */,
+				8E94DADD1C5C1E3E00308871 /* AppDelegate.swift in Sources */,
+				8E6F6A371C64B7BF00D79D5C /* DatabaseTransferViewController.swift in Sources */,
+				8E6F6A391C64E37900D79D5C /* Menu.swift in Sources */,
+				8E6F6A3F1C662B3600D79D5C /* Settings.swift in Sources */,
+				8E0F59181C6125E1002B8BB8 /* Specifications.swift in Sources */,
+				8E94DB081C5E3BA300308871 /* FileQueryController.swift in Sources */,
+				8E45E6A11C5F5CEC00136DA6 /* Command.swift in Sources */,
+				8E45E6A51C60B64300136DA6 /* Api.swift in Sources */,
+				8EC6C8241C679467007E583C /* Scripts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E94DAE61C5C1E3E00308871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E94DAEF1C5C1E3E00308871 /* ZebedeeScriptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E94DAF11C5C1E3E00308871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E94DAFA1C5C1E3E00308871 /* ZebedeeScriptUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E94DAEC1C5C1E3E00308871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E94DAD81C5C1E3E00308871 /* ZebedeeScript */;
+			targetProxy = 8E94DAEB1C5C1E3E00308871 /* PBXContainerItemProxy */;
+		};
+		8E94DAF71C5C1E3E00308871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E94DAD81C5C1E3E00308871 /* ZebedeeScript */;
+			targetProxy = 8E94DAF61C5C1E3E00308871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E94DAE21C5C1E3E00308871 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E94DAE31C5C1E3E00308871 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E94DAFC1C5C1E3E00308871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E94DAFD1C5C1E3E00308871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8E94DAFF1C5C1E3E00308871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9A285ECD1060D076CCE662 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZebedeeScript/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digital.ons.ZebedeeScript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E94DB001C5C1E3E00308871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F32D264D2433BA716A4D5A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZebedeeScript/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digital.ons.ZebedeeScript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E94DB021C5C1E3E00308871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZebedeeScriptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digital.ons.ZebedeeScriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZebedeeScript.app/Contents/MacOS/ZebedeeScript";
+			};
+			name = Debug;
+		};
+		8E94DB031C5C1E3E00308871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZebedeeScriptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digital.ons.ZebedeeScriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZebedeeScript.app/Contents/MacOS/ZebedeeScript";
+			};
+			name = Release;
+		};
+		8E94DB051C5C1E3E00308871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZebedeeScriptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digital.ons.ZebedeeScriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZebedeeScript;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8E94DB061C5C1E3E00308871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZebedeeScriptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digital.ons.ZebedeeScriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZebedeeScript;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E94DAD41C5C1E3E00308871 /* Build configuration list for PBXProject "ZebedeeScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E94DAFC1C5C1E3E00308871 /* Debug */,
+				8E94DAFD1C5C1E3E00308871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E94DAFE1C5C1E3E00308871 /* Build configuration list for PBXNativeTarget "ZebedeeScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E94DAFF1C5C1E3E00308871 /* Debug */,
+				8E94DB001C5C1E3E00308871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E94DB011C5C1E3E00308871 /* Build configuration list for PBXNativeTarget "ZebedeeScriptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E94DB021C5C1E3E00308871 /* Debug */,
+				8E94DB031C5C1E3E00308871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E94DB041C5C1E3E00308871 /* Build configuration list for PBXNativeTarget "ZebedeeScriptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E94DB051C5C1E3E00308871 /* Debug */,
+				8E94DB061C5C1E3E00308871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E94DAD11C5C1E3E00308871 /* Project object */;
+}

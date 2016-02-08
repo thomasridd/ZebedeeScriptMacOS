@@ -1,0 +1,65 @@
+{
+  "transfers": {
+    "upload": {
+      "origin": "/Users/thomasridd/ons/content/zebedee/master",
+      "destination":"ubuntu@carboni.uk:/home/ubuntu/content_develop/upload/"
+    },
+    "download": {
+      "origin": "davidcarboni@publishing.staging.web.ons.digital:/var/lib/florence/live/zebedee/",
+      "destination": "/Users/thomasridd/ons/content/zebedee/"
+    },
+    "backup": {
+      "origin": "/Users/thomasridd/ons/content/zebedee/master",
+      "destination": "/Users/thomasridd/ons/content/backup"
+    },
+    "restore": {
+      "origin": "/Users/thomasridd/ons/content/backup",
+      "destination": "/Users/thomasridd/ons/content/zebedee/master"
+    },
+      "collections": {
+          "origin": "ubuntu@carboni.uk:/home/ubuntu/content_live/zebedee/collections",
+          "destination": "/Users/thomasridd/ons/content/zebedee/collections"
+      },
+      "publishlog": {
+          "origin": "ubuntu@carboni.uk:/home/ubuntu/content_live/zebedee/publish-log",
+          "destination": "/Users/thomasridd/ons/content/zebedee/publish-log"
+      }
+  },
+  "defaults": {
+    "database": "/Users/thomasridd/ons/content/zebedee/master",
+    "host": "https://localhost:8085",
+      "query":["from /Users/thomasridd/ons/content/zebedee/master", "filter files", "filter uri_ends .json", "filter not uri_contains /previous/"]
+  },
+  "repos": [
+    {
+      "name": "Zebedee",
+      "local": "/Users/thomasridd/deploy/zebedee",
+      "remote": "git@github.com:ONSdigital/zebedee.git"
+    },
+    {
+      "name": "Babbage",
+      "local": "/Users/thomasridd/deploy/babbage",
+      "remote": "git@github.com:ONSdigital/babbage.git"
+    },
+    {
+      "name": "Florence",
+      "local": "/Users/thomasridd/deploy/florence",
+      "remote": "git@github.com:ONSdigital/florence.git"
+    },
+    {
+      "name": "Sixteens",
+      "local": "/Users/thomasridd/deploy/sixteens",
+      "remote": "git@github.com:ONSdigital/sixteens.git"
+    },
+    {
+      "name": "Brian",
+      "local": "/Users/thomasridd/deploy/brian",
+      "remote": "git@github.com:ONSdigital/project-brian.git"
+    },
+    {
+      "name": "The Train",
+      "local": "/Users/thomasridd/deploy/thetrain",
+      "remote": "git@github.com:ONSdigital/The-Train.git"
+    }
+  ]
+}
